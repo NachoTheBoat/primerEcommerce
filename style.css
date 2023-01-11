@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #0369a1;
+}
+
+.contenedorProductos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: gold;
+  gap: 2rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  filter: drop-shadow(5px 5px blue);
+}
+.productoImagen {
+  max-width: 100%;
+  border-radius: 2rem;
+}
+
+footer {
+  background-image: url(/img/baner.jpg);
+  height: 1000px;
+}
